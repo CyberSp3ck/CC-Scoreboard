@@ -49,7 +49,7 @@ def generate_table(scoreboard, prev_scoreboard=None):
         if prev_scoreboard:
             for p_i, prev_user in enumerate(prev_scoreboard):
                 if prev_user["displayedName"] == user["displayedName"]:
-                    if i > p_i:
+                    if i < p_i:
                         style = "bold green blink"
                     break
 
