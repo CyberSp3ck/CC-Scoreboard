@@ -4,7 +4,7 @@ A simple auto-updating terminal scoreboard visualizer for the CyberChallenge pla
 
 ## Note
 
-The colors and icons are based on the [Gruvbox](https://github.com/morhetz/gruvbox) color scheme and Apple Emojis. If you have other themes it may not look good.
+The colors and icons are based on the [Gruvbox](https://github.com/morhetz/gruvbox) color scheme and Apple Emojis. If you have other themes it may not look good. For convenience there is a script (`./setup.sh`) that setups the font and terminal config for xfce.
 
 ## Usage
 
