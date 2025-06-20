@@ -18,7 +18,7 @@ URL = os.getenv("URL", "https://ctf.cyberchallenge.it/api/scoreboard")
 
 def get_scoreboard():
     r = requests.get(URL, headers={"Authorization": TOKEN})
-    return r.json()
+    return r.json()['scoreboard']
 
 
 def generate_table(scoreboard, prev_scoreboard=None):
